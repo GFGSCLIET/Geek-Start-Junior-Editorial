@@ -1,0 +1,35 @@
+Raw data is data that has not been processed for use and may include invalid data. such as age in negative numbers where age cannot be negative. Invalid data may occurs due to insertion of non_valid type of actual data. you are given an array A representing the ages of people collected from the survey. find the number of Invalid details present in the given data.
+
+Input Format
+
+The first line consists of the Number of people has taken the survey.
+the second line consists of a list of Integers separated by white spaces representing the array of ages.
+Constraints
+
+0 <= N <= 10^3
+0 <= A[i] <= 10^2
+Output Format
+
+print the number of invalid ages present in the raw data.
+Note : consider age 0 is invalid.
+Sample Input 0
+
+9
+25 24 19 26 -1 -2 78 56 -3
+Sample Output 0
+
+3
+Explanation 0
+
+The ages can't be negative. so, the count of invalid data are 3.
+
+Sample Input 1
+
+8
+45 98 65 8 45 15 78 45
+Sample Output 1
+
+0
+Explanation 1
+
+Hence, there is no invalid data. so, the count will be 0.
