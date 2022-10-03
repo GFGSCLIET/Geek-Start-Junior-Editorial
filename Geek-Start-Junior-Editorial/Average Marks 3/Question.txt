@@ -1,0 +1,36 @@
+There are N number of students who completed their semester examinations. You are given an array M representing the marks of the students. print the average marks of the class.
+
+Input Format
+
+the 1st line consists of Integer N representing the number of students in the class.
+the 2nd line consists of array M representing the marks of the class seperated by white spaces.
+Constraints
+
+0 <= N <= 10^3
+0 <= i <= N
+0 <= N[i] <= 10^3
+Output Format
+
+print the average of the marks of the students in the class. (print the result upto 2 decimal points )
+Sample Input 0
+
+5
+90 99 96 78 84
+Sample Output 0
+
+89.40
+Explanation 0
+
+there are 5 students in the class having 90, 99, 96, 78, 84 marks respectively. then the average of the marks will be 89.40
+
+Sample Input 1
+
+10
+90 79 80 83 95 89 75 89 98 87
+Sample Output 1
+
+86.50
+Explanation 1
+
+There are 10 students in the class having marks 90, 79, 80, 83, 95, 89, 75, 89, 98, 87 respectively.
+the average of the marks will be 86.50
