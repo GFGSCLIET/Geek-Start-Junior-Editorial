@@ -1,34 +1,44 @@
-Let's use decorators to build a name directory! You are given some information about N people. Each person has a first name, last name, age and sex. Print their names in a specific format sorted by their age in ascending order i.e. the youngest person's name should be printed first. For two people of the same age, print them in the order of their input.
+Virat and Rohit are playing on the field. It's a T20 match so we must display number of runs scored in given number of balls.
 
-For Henry Davids, the output should be:
+You will be given two array of which one contains the data of who was on strike for that ball and the other contains the runs scored for that ball respectively.
 
-Mr. Henry Davids
-For Mary George, the output should be:
+Your task is to calculate the runs scored by virat in given balls and the strike rate.
 
-Ms. Mary George
 Input Format
 
-The first line contains the integer N, the number of people Nlines follow each containing the space separated values of the first name, last name, age and sex, respectively.
+1st line consists an integer: The number of balls that is to be considered for the score 2nd line consists who held the strike for that correspoding ball: n space seperated characters.('V' corresponds to Virat and 'R' corresponds Rohit) 3rd line consists of Run Scored for each ball: n space seperated integer values.
 
 Constraints
-1<N<10
+
+0 < n <=120 0 <= score[i] <=6
 
 Output Format
 
-Output N names on separate lines in the format described above in ascending order of age.
+print the virat's score and strike rate
 
-Sample Input
+Sample Input 0
 
-3
-Mike Thomson 20 M
-Robert Bustle 32 M
-Andria Bustle 30 F
+6
+V V V R V R
+4 6 1 1 1 1
+Sample Output 0
 
-Sample Output
+12 300.00
+Explanation 0
 
-Mr. Mike Thomson
-Ms. Andria Bustle
-Mr. Robert Bustle
-Concept
+The first line has the integer 6 which represents the number of balls being considered.
+So in the second line we have 6 characters representing the strike held for each ball.
+As virat has played 4 balls and scored 4 6 1 1 repectively the total score would be 12 and the strike rate is 300.00
 
-For sorting a nested list based on some parameter, you can use the itemgetter library. You can read more about it here.
+CALCULATING STRIKE RATE:
+
+strike_rate = ((Total Score)/(Number of Balls played))*100
+hence the strike of virat = ((12)/(4))*100 = 300.00
+Sample Input 1
+
+4
+R R R R
+6 2 2 1
+Sample Output 1
+
+0 0.00
