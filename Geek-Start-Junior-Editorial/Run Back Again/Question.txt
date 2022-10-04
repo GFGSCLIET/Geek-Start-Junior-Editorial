@@ -1,0 +1,33 @@
+The Greek word palindromos means "running back again". we are simply known as Palindromes.a palindrome is a word, verse, sentence, or number that reads the same backward or forward.
+you are given an Integer number N, check wheater it is a palindrome or not.
+Input Format
+
+The 1st line consists of Integer N.
+Constraints
+
+0 <= N <= 10^3
+Output Format
+
+print True if the Integer is Palindrome otherwise False (CaseSensitive)
+Sample Input 0
+
+101
+Sample Output 0
+
+True
+Explanation 0
+
+An integer is considered a palindrome when it reads the same backward as forward.
+101 read backwards as 101.Since these are two same numbers 101 is a palindrome.
+Sample Input 1
+
+789
+Sample Output 1
+
+False
+Explanation 1
+
+when we read 789 in read, it will be 987.Since these are two different numbers 789 is not a palindrome.
+
+
+    
